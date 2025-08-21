@@ -5,9 +5,29 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    body {
-      background-color: #f8f8ff;
+    body  {
+      background-color: whitesmoke;
       color: #333;
+      background-image: url();
+    }
+
+   .future-ready{
+     background-image: url(./image-folder/OIP.webp);
+   }
+
+    .future-ready  h3{
+      color:black;
+      font-size: x-large;
+    }
+
+    .future-ready h1{
+      font-size: xx-large;
+      color: black;
+    }
+
+    .future-ready h2{
+      font-size: x-large;
+      color: maroon;
     }
 
     header {
@@ -15,21 +35,24 @@
       justify-content: space-between;
       padding: 20px 60px;
       align-items: center;
-      background-color: #fff;
+      background-color: blanchedalmond;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #333;
+      color:black;
+      background-color:blanchedalmond;
       font-weight: 500;
     }
+
 
     .hero {
       text-align: center;
       padding: 60px 20px;
-      background-color: black;
+      background-color: palegoldenrod;
+      margin: 30px;
     }
 
     .hero h1 {
@@ -37,6 +60,7 @@
       color: #2c2c54;
       color: aqua;
       background-color: black;
+      margin: 30px;
     }
 
     .hero p {
@@ -76,24 +100,19 @@
       color: #6c5ce7;
     }
 
-    .images-section {
+    /* .images-section img { 
       display: flex;
-      justify-content: space-around;
-      align-items: end;
-      margin: 50px 20px;
-      width: 500px;
-      height: 500px;
-      justify-content: space-between;
-      display: flex;
-      margin: 6px;
-    }
+      width: 300px;
+      height: 300px;
+      display: flexbox;
+      align-items: center;
+    }*/
 
-    .images-section img {
+    .rug-rats img {
+      display: flexbox;
       width: 500px;
       height: 500px;
-      border-radius: 20px;
-      display: flex;
-      margin: 6px;
+      justify-content: flex-start;
     }
 
     .programs {
@@ -125,3 +144,20 @@
       font-weight: bold;
     }
   
+    footer{
+    padding: 40px 20px 20px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.social-icons img{
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.copyright{
+    color: #777;
+    font-size: 12px;
+}
