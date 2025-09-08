@@ -8,12 +8,10 @@
 
     body  {
       background-color: whitesmoke;
-      color: #333;
-      background-image: url();
+      color:white;
     }
 
    .future-ready{
-     background-image: url();
    }
 
     .future-ready  h3{
@@ -31,7 +29,7 @@
 
     .future-ready h2{
       font-size: x-large;
-      color: red;
+      color: skyblue;
       text-align: center;
     }
 
@@ -40,38 +38,38 @@
       justify-content: space-between;
       padding: 20px 60px;
       align-items: center;
-      background-color: blanchedalmond;
+      background-color: black;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color:black;
-      background-color:blanchedalmond;
+      color:white;
+      /* background-color:blanchedalmond; */
       font-weight: 500;
     }
 
 
     .hero {
       text-align: center;
-      padding: 60px 20px;
-      background-color: palegoldenrod;
-      margin: 30px;
+      padding: 250px 50px;
+      background-color: whitesmoke;
+      background-image: url(./image-folder/GettyImages-846567624.jpg);
     }
 
     .hero h1 {
       font-size: 3rem;
       color: #2c2c54;
-      color: aqua;
-      background-color: black;
+      color: black;
+      background-color: ;
       margin: 30px;
     }
 
     .hero p {
       margin: 10px 0 30px;
       font-size: 1.2rem;
-      color: #555;
+      color: black;
     }
 
     .hero button {
@@ -87,6 +85,7 @@
 
     .hero button:hover {
       background-color: #4834d4;
+      text-align: center;
     }
 
     .hero-stats {
@@ -102,7 +101,9 @@
 
     .stat h2 {
       font-size: 2rem;
-      color: #6c5ce7;
+      color: white;
+      align-items: center;
+      text-align: center;
     }
 
     /* .images-section img { 

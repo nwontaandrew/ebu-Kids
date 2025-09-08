@@ -7,14 +7,14 @@
 
 body  {
       background-color:white;
-      color: #333;
+      color:white;
        /* background-image: url(./image-folder/OIP.webp);  */
     }
 
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color:black;
+      color:white;
       font-weight: 500;
     }
 
@@ -23,8 +23,8 @@ body  {
       justify-content: space-between;
       padding: 20px 60px;
       align-items: center;
-      background-color: blanchedalmond;
-      color: black;
+      background-color: black;
+      color: white;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 

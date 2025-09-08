@@ -10,15 +10,16 @@ header {
       justify-content: space-between;
       padding: 20px 60px;
       align-items: center;
-      background-color: blanchedalmond;
+      background-color: black;
+      color: white;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color:black;
-      background-color:blanchedalmond;
+      color:white;
+      background-color:black;
       font-weight: 500;
     }
 

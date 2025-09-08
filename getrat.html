@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="getrat.css">
+</head>
+<body>
+<div class="container">
+<!-- GET STARTED SECTION -->
+<section class="get-started" aria-labelledby="get-started-title">
+
+
+<!-- LEFT: headline, steps, feature pills -->
+<div class="left">
+<header>
+<h1 id="get-started-title">Get started with LearnMate</h1>
+<p class="lead">Start learning in three easy steps — choose your path, join a course, and track your progress. Designed for learners of all ages.</p>
+</header>
+
+
+<div class="steps" role="list">
+<article class="step" role="listitem">
+<div class="num">1</div>
+<div>
+<h4>Create a free account</h4>
+<p>Sign up with your email or continue with Google. We keep things simple and secure.</p>
+</div>
+</article>
+
+
+<article class="step" role="listitem">
+<div class="num">2</div>
+<div>
+<h4>Pick a learning path</h4>
+<p>Choose from curated tracks: Basics, Intermediate, or Advanced — tailored to your goal.</p>
+</div>
+</article>
+
+
+<article class="step" role="listitem">
+<div class="num">3</div>
+<div>
+<h4>Start lessons & earn badges</h4>
+<p>Interactive lessons, quizzes and projects with progress tracking and certificates.</p>
+</div>
+</article>
+
+
+<article class="step" role="listitem">
+<div class="num">4</div>
+<div>
+<h4>Join the community</h4>
+<p>Connect with tutors and peers, ask questions, and collaborate on projects.</p>
+</div>
+</article>
+</div>
+
+
+<div class="features" aria-hidden="false" style="margin-top:18px">
+<div class="pill">Interactive quizzes</div>
+<div class="pill">Progress badges</div>
+<div class="pill">Downloadable resources</div>
+</div>
+
+
+<p class="foot">Tip: New to learning online? Click "How it works" in the navigation to see a short walkthrough video.</p>
+</div>
+
+
+<!-- RIGHT: signup card with quick profile preview & CTA -->
+<aside class="card signup" aria-labelledby="signup-title">
+<h3 id="signup-title">Create your free account</h3>
+<p class="small">No credit card required • Cancel anytime</p>
+
+
+<form id="signup-form" onsubmit="event.preventDefault();alert('Welcome! (this is a demo)')">
+<label class="sr-only" for="name">Full name</label>
+<input id="name" type="text" placeholder="Full name" required>
+
+
+<label class="sr-only" for="email">Email</label>
+<input id="email" type="email" placeholder="Email address" required>
+
+
+<select aria-label="Choose learning track" required>
+<option value="">Choose learning track</option>
+<option>Foundations (K-6)</option>
+<option>Math & Science</option>
+<option>Technology & Coding</option>
+<option>Business & Entrepreneurship</option>
+</select>
+
+
+<div class="row">
+<button class="btn" type="submit">Get started</button>
+<button class="btn secondary" type="button" onclick="alert('Continue with Google - demo')">Continue with Google</button>
+</div>
+</form>
+
+
+<div class="meta">
+<div class="tag">Free plan</div>
+<div class="tag" style="background:rgba(52,102,255,0.06);color:var(--accent);border:1px solid rgba(52,102,255,0.08)">30-day trial</div>
+</div>
+
+
+<div style="margin-top:12px;font-size:13px;color:var(--muted)">Already have an account? <a href="#" style="color:var(--accent);font-weight:600">Sign in</a></div>
+</aside>
+
+
+</section>
+
+
+<!-- Optional quick links for admins/designers -->
+<div style="margin-top:18px;font-size:13px;color:var(--muted)">
+</div>
+</div>
+
+
+<!-- Small accessibility helper -->
+ <style>
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style>
+</body>
+</html>

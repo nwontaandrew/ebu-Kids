@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arts & Crafts Quiz</title>
+<link rel="stylesheet" href="art-quiz.css">
+</head>
+<body>
+    <div class="wrap">
+<div class="quiz-card" role="region" aria-labelledby="quiz-title">
+<header class="quiz-header">
+<span class="eyebrow">Arts & Crafts</span>
+<h1 id="quiz-title">Quick Quiz: Studio Basics</h1>
+<p class="sub">Test your knowledge of techniques, tools, and art history. Choose an answer for each question to see instant feedback.</p>
+</header>
+
+
+<form class="quiz-body">
+<!-- Q1 -->
+<fieldset class="q">
+<legend>1) Which primary colors are used in traditional subtractive (paint) mixing?</legend>
+<div class="options">
+<div class="opt">
+<input id="q1a" name="q1" type="radio" />
+<label for="q1a"><span class="bullet"></span><span class="text"><span class="title">Red, Yellow, Blue</span><br><span class="meta">Classic pigment primaries for paints.</span></span></label>
+<div class="feedback correct"><span class="ok">Correct.</span> These are the common art-class primaries for subtractive mixing.</div>
+</div>
+<div class="opt">
+<input id="q1b" name="q1" type="radio" />
+<label for="q1b" class="is-correct"><span class="bullet"></span><span class="text"><span class="title">Cyan, Magenta, Yellow</span><br><span class="meta">Modern subtractive primaries (CMY) used in printing and some paints.</span></span></label>
+<div class="feedback correct"><span class="ok">Correct.</span> CMY are the modern subtractive primaries.</div>
+</div>
+<div class="opt">
+<input id="q1c" name="q1" type="radio" />
+<label for="q1c"><span class="bullet"></span><span class="text"><span class="title">Red, Green, Blue</span><br><span class="meta">These are additive light primaries, not paint.</span></span></label>
+<div class="feedback wrong"><span class="no">Not quite.</span> RGB are light (screens), not paint.</div>
+</div>
+</div>
+</fieldset>
+
+
+<!-- Q2 -->
+<fieldset class="q">
+<legend>2) What tool is best for smoothing wood surfaces in carving or joinery?</legend>
+<div class="options">
+<div class="opt">
+<input id="q5a" name="q5" type="radio" />
+<label for="q5a" class="is-correct"><span class="bullet"></span><span class="text"><span class="title">Impressionism</span><br><span class="meta">Light, color, and momentary effects.</span></span></label>
+<div class="feedback correct"><span class="ok">Correct.</span> Monet is a central figure of Impressionism.</div>
+</div>
+<div class="opt">
+<input id="q5b" name="q5" type="radio" />
+<label for="q5b"><span class="bullet"></span><span class="text"><span class="title">Cubism</span><br><span class="meta">Think Picasso & Braque.</span></span></label>
+<div class="feedback wrong"><span class="no">Try again.</span> Cubism came later and is a different style.</div>
+</div>
+<div class="opt">
+<input id="q5c" name="q5" type="radio" />
+<label for="q5c"><span class="bullet"></span><span class="text"><span class="title">Baroque</span><br><span class="meta">Dramatic & ornate, 17th century.</span></span></label>
+<div class="feedback wrong"><span class="no">Nope.</span> Baroque predates Monet by centuries.</div>
+</div>
+</div>
+</fieldset>
+
+
+<!-- Q6 -->
+<fieldset class="q">
+<legend>6) What is the safest way to cut thin cardboard with a craft knife?</legend>
+<div class="options">
+<div class="opt">
+<input id="q6a" name="q6" type="radio" />
+<label for="q6a"><span class="bullet"></span><span class="text"><span class="title">Cut freehand, fast, with long strokes</span><br><span class="meta">Speed can cause slips.</span></span></label>
+<div class="feedback wrong"><span class="no">Unsafe.</span> Fast, long strokes increase the risk of slips.</div>
+</div>
+<div class="opt">
+<input id="q6b" name="q6" type="radio" />
+<label for="q6b" class="is-correct"><span class="bullet"></span><span class="text"><span class="title">Use a metal ruler and make several light passes</span><br><span class="meta">Control and safety first.</span></span></label>
+<div class="feedback correct"><span class="ok">Correct.</span> A metal ruler and light passes keep cuts straight and safe.</div>
+</div>
+<div class="opt">
+<input id="q6c" name="q6" type="radio" />
+<label for="q6c"><span class="bullet"></span><span class="text"><span class="title">Cut towards your body for leverage</span><br><span class="meta">Never cut toward yourself.</span></span></label>
+<div class="feedback wrong"><span class="no">No!</span> Always cut away from your body.</div>
+</div>
+</div>
+</fieldset>
+
+
+<div class="sr-only" aria-live="polite">Selecting an option will show if your choice is correct.</div>
+</form>
+
+
+<div class="quiz-footer">
+<div>
+<button class="btn" type="reset" form="none" onclick="this.closest('.quiz-card').querySelector('form').reset()">Reset answers</button>
+<small style="display:block; color:var(--muted); margin-top:6px">No JavaScript scoring—each question reveals instant feedback.</small>
+</div>
+<details class="key">
+<summary>Answer Key</summary>
+<div class="grid">
+<div><span class="pill">Q1</span> Cyan, Magenta, Yellow</div>
+<div><span class="pill">Q2</span> Sanding block</div>
+<div><span class="pill">Q3</span> Acid‑free glue stick</div>
+<div><span class="pill">Q4</span> Applying wet paint onto a wet surface</div>
+<div><span class="pill">Q5</span> Impressionism</div>
+<div><span class="pill">Q6</span> Use a metal ruler and make several light passes</div>
+</div>
+</details>
+</div>
+</div>
+</div>
+</body>
+</html>
