@@ -61,7 +61,7 @@
     .hero h1 {
       font-size: 3rem;
       color: #2c2c54;
-      color: black;
+      color: white;
       background-color: ;
       margin: 30px;
     }
@@ -69,7 +69,7 @@
     .hero p {
       margin: 10px 0 30px;
       font-size: 1.2rem;
-      color: black;
+      color: white;
     }
 
     .hero button {
@@ -101,7 +101,7 @@
 
     .stat h2 {
       font-size: 2rem;
-      color: white;
+      color: wheat;
       align-items: center;
       text-align: center;
     }
